@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Luxurious Bag</title>
+    <link rel="stylesheet" href="style/luxuriousheader.css">
+    <link rel="stylesheet" href="style/luxuriousbody.css">
+  </head>
+  <body> 
+    <div class="header">
+
+      <div class="left-section">
+        <a href="index.html"><img class="oe-pics" src="pics-room/O&E Collection.jpg"></a>
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search Product">
+        <button class="js-search-button search-button" data-testid="search-button" ><img class="search-icon" src="pics-room/search-icon.png"></button>
+      </div>
+
+      <div class="right-section">
+        <div class="text-order"><span class="nav-line1">Return</span> <span class="nav-line2">& Orders</span></div>
+        <a class="cart-link header-link" href="shopping.html"> 
+      <img class="cart-image" src="pics-room/cart-icon.png">
+      <div class="js-cart-quantity" data-testid="js-cart-quantity">3</div>
+        <div class="cart-text">Cart</div>
+      </a>
+  </div>    
+</div>
+
+      <div>
+        <p class="above-text">New on O&E Collection: Too Feet <Span class="mini-text">Shop all kinds of shoes here</Span></p> 
+      </div>  
+
+      <div class="choice-cart">
+        <div class="image-container">
+          <img class="image-space" src="bag-store/bagproduct1.jpg">
+          <p class="below-text">Silver Handbag 1</p>
+          <p class="number-text"><span class="align-up">€</span>20<span class="align-up">83</span></p>
+          <label>
+            <form><button onclick="
+              cartQuantity = cartQuantity + 1;
+              console.log(`Cart quantity: ${cartQuantity}
+              `)" class="cart-button">Add to cart</button></form>
+          </label>
+        </div>
+    
+        <div class="image-container">
+          <img class="image-space" style="width: 150px" src="bag-store/louisvuitton1.jpg">
+          <p class="below-text">Louis Vuitton 1</p>
+          <p class="number-text"><span class="align-up">€</span>26<span class="align-up">25</span></p>
+          <label>
+            <form><button onclick="
+              cartQuantity = cartQuantity + 2;
+              console.log(`Cart quantity: ${cartQuantity}
+              `)" class="cart-button" class="cart-button">Add to cart</button></form>
+          </label>
+        </div>
+
+        <div class="image-container">
+          <img class="images-spaces" style="width: 150px"  src="bag-store/diamondbag2.jpg">
+          <p class="below-text">DiamondBag 1</p>
+          <p class="number-text"><span class="align-up">€</span>29<span class="align-up">99</span></p>
+          <label>
+            <form><button onclick="
+              cartQuantity = cartQuantity + 1;
+              console.log(`Cart quantity: ${cartQuantity}
+              `)" class="cart-button">Add to cart</button></form>
+          </label>
+        </div>
+
+        <div class="image-container">
+          <img class="image-space" src="bag-store/Dbag1.jpg">
+          <p class="below-text">Dbag 1</p>
+          <p class="number-text"><span class="align-up">€</span>30<span class="align-up">30</span></p>
+          <label>
+            <form><button  onclick="
+              cartQuantity = cartQuantity + 1;
+              console.log(`Cart quantity: ${cartQuantity}
+              `)" class="cart-button">Add to cart</button></form>
+          </label>
+        </div>
+
+        <div class="image-container">
+          <img class="images-spaces" style="width: 150px" src="bag-store/coerkbag2.jpg">
+          <p class="below-text">Coerkbag 1</p>
+          <p class="number-text"><span class="align-up">€</span>47<span class="align-up">87</span></p>
+          <label>
+            <form><button  onclick="
+              cartQuantity = cartQuantity + 1;
+              console.log(`Cart quantity: ${cartQuantity}
+              `)" class="cart-button">Add to cart</button></form>
+          </label>
+        </div>
+
+        <div class="image-container">
+          <img class="images-spaces" src="bag-store/handbag3.jpg">
+          <p class="below-text">Way Handbag 1</p>
+          <p class="number-text"><span class="align-up">€</span>40<span class="align-up">87</span></p>
+          <label>
+            <form><button   onclick="
+              cartQuantity = cartQuantity + 1;
+              console.log(`Cart quantity: ${cartQuantity}
+              `)" class="cart-button">Add to cart</button></form>
+          </label>
+        </div>
+
+    </div>
+    <script>
+      let cartQuantity = 0
+    </script>
+
+<div class="choice-cart">
+  <div class="image-container">
+    <img class="images-spaces" src="bag-store/bagproduct3.jpg">
+    <p class="below-text">Gold Handbag 2</p>
+    <p class="number-text"><span class="align-up">€</span>22<span class="align-up">83</span></p>
+    <label>
+      <form><button onclick="
+        cartQuantity = cartQuantity + 1;
+        console.log(`Cart quantity: ${cartQuantity}
+        `)" class="cart-button">Add to cart</button></form>
+    </label>
+  </div>
+
+  <div class="image-container">
+    <img class="images-spaces" src="bag-store/Dbag1.jpg">
+    <p class="below-text">Dbag 2</p>
+    <p class="number-text"><span class="align-up">€</span>34<span class="align-up">50</span></p>
+    <label>
+      <form><button onclick="
+        cartQuantity = cartQuantity + 2;
+        console.log(`Cart quantity: ${cartQuantity}
+        `)" class="cart-button" class="cart-button">Add to cart</button></form>
+    </label>
+  </div>
+
+  <div class="image-container">
+    <img class="image-space" style="width: 160px;" src="bag-store/travelingbox3.jpg">
+    <p class="below-text">Traveling-box 1</p>
+    <p class="number-text"><span class="align-up">€</span>39<span class="align-up">00</span></p>
+    <label>
+      <form><button onclick="
+        cartQuantity = cartQuantity + 1;
+        console.log(`Cart quantity: ${cartQuantity}
+        `)" class="cart-button">Add to cart</button></form>
+    </label>
+  </div>
+
+  <div class="image-container">
+    <img class="images-spaces" src="bag-store/mombagg.jpg">
+    <p class="below-text">Legend Bag</p>
+    <p class="number-text"><span class="align-up">€</span>25<span class="align-up">46</span></p>
+    <label>
+      <form><button  onclick="
+        cartQuantity = cartQuantity + 1;
+        console.log(`Cart quantity: ${cartQuantity}
+        `)" class="cart-button">Add to cart</button></form>
+    </label>
+  </div>
+
+  <div class="image-container">
+    <img class="images-spaces" style="width: 160px;" src="bag-store/coerkbag.jpg">
+    <p class="below-text">Versace 3</p>
+    <p class="number-text"><span class="align-up">€</span>39<span class="align-up">87</span></p>
+    <label>
+      <form><button  onclick="
+        cartQuantity = cartQuantity + 1;
+        console.log(`Cart quantity: ${cartQuantity}
+        `)" class="cart-button">Add to cart</button></form>
+    </label>
+  </div>
+
+  <div class="image-container">
+    <img class="images-spaces" src="bag-store/pinkybag.jpg">
+    <p class="below-text">Timberbag 2</p>
+    <p class="number-text"><span class="align-up">€</span>60<span class="align-up">32</span></p>
+    <label>
+      <form><button   onclick="
+        cartQuantity = cartQuantity + 1;
+        console.log(`Cart quantity: ${cartQuantity}
+        `)" class="cart-button">Add to cart</button></form>
+    </label>
+  </div>
+
+</div>
+
+
+  </body>
+</html>

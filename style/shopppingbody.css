@@ -1,0 +1,139 @@
+p {
+  font: arial;
+}
+.cart-container {
+  background-color: whitesmoke;
+  display: block;
+  position: relative;
+  padding: 5px;
+  padding-bottom: 7px;
+  margin-right: 300px;
+  margin-top: 2px;
+}
+@media (max-width: 1341.60px) {
+  .cart-container {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 827px) and (max-width: 420.20px) {
+  .cart-container {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 120px) {
+  .cart-container {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+.shopping-cart {
+  line-height: 36px;
+  font-size: 26x;
+  font-weight: 200;
+  padding-top: 0%;
+}
+.price-head {
+  display: block;
+  bottom: 0;
+  font-size: 18px;
+  line-height: 20px;
+  width: 100%;
+  left: 100%;
+  text-align: right;
+}
+.selected-product {
+  width: 180px;
+  display: inline-block;
+  height: 180px;
+  box-sizing: border-box;
+  margin-right: 12px;
+  overflow: chip;
+  margin-left: 15px;
+}
+.product-name {
+  display: inline-block;
+  word-wrap: break-word;
+  width: 100%;
+}
+.below-text {
+  padding-bottom: 5px;
+}
+.stock-in {
+  font-size: 12px;
+  color:rgba(0 118 0 1);
+}
+.description-text {
+  font-weight: 700;
+  font-size: 12px;
+}
+.descriptionn-textt {
+  font-size: 12px;
+}
+.shoe-pics {
+  width: 100px;
+}
+.price-text {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: right;
+}
+.align-up{
+  color: rgb(0 0 0);
+  font-size: 13px;
+  cursor: pointer;
+  list-style: decimal;
+  top: -.75em;
+  position: relative;
+  box-sizing: border-box;
+}
+.subtotal-text {
+  display: block;
+  font-size: 22px;
+  text-align: end;
+  margin-right: 300px;
+  margin-top: 2px;
+  padding-bottom: 50px
+}
+.subtotall-textt {
+  background-color: whitesmoke;
+  display: inline-block;
+  position: relative;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  z-index: 0;
+  text-align: left;
+}
+.subtotal-word {
+  display: inline-block;
+  line-height: 13px;
+  font-size: 15px;
+}
+.subtotall-wordd {
+  padding-top: 10px;
+  font-size: 17px;
+}
+.align-text {
+  color: rgb(6 125 98);
+  display: block;
+  line-height: 15px;
+}
+.proceed-button {
+  background-color:  rgb(255, 216, 20);
+  border: none;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.15s;
+}
+.proceed-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.proceed-button:active {
+  background-color: yellow;
+}
