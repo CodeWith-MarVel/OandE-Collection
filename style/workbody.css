@@ -110,3 +110,12 @@
 .right-part {
   font-family: arial;
 }
+
+footer {
+  background-color: rgb(91, 91, 91);
+  display: block;
+  clear: both;
+  color: black;
+  text-align: center;
+  padding: 2em;
+}
