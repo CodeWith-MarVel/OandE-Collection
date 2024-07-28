@@ -14,19 +14,14 @@
   row-gap: 30px;
   padding-bottom: 30px;
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .front-preview {
       grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 889px) and (max-width: 1199px) {
+@media (min-width: 500px) {
   .front-preview{
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 1200px) {
-  .front-preview{
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   }
 }
 .image-container {
