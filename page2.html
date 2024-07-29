@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 2</title>
+
+  <style>
+    .runaway-text {
+      font-family: arial;
+      font-size: 50px;
+      text-shadow: 4px 5px 5px rgb(25, 6, 237), -4px -5px 5px rgb(255, 217, 0);
+    }
+    .pagination {
+      text-align: center;
+    }
+    .pagination a{
+      color: black;
+      text-decoration: none; 
+      padding: 8px 15px;
+      display: inline-block;
+    }
+    .pagination a.active{
+      background-color: hsl(125, 100%, 70%);
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .pagination a:hover:not(active){
+      background-color: hsl(120, 2%, 66%);
+      border-radius: 5px;
+    }
+
+
+    .dropdown {
+      display: inline-block;
+    }
+    .dropdown button {
+      background-color: rgb(209, 203, 203);
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+    .dropdown a{
+      display: block;
+      text-decoration: none;
+      color: black;
+      padding: 10px 15px;
+    }
+    .dropdown .content {
+      display: none;
+      position: absolute;
+      background-color: rgb(236, 227, 227);
+      min-width: 100px;
+      box-shadow: 2px 2px 15px;
+    }
+    .dropdown:hover .content {
+      display: block;
+    }
+    .dropdown:hover button {
+       background-color: rgb(180, 180, 180);
+    }
+    .dropdown a:hover{
+      background-color:  rgb(128, 126, 126);;
+    }
+
+
+    li:hover {
+      background-color: rgb(255, 255, 112);
+    }
+    li:not(:hover) {
+      background-color: hsl(0, 0%, 72%);
+    }
+  </style>
+</head>
+<body>
+  <h1>Page 2</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta amet at fugit ratione obcaecati esse ex dolorum nesciunt nemo voluptatem cumque, reiciendis excepturi, illo neque perspiciatis voluptates tenetur sed et!</p>
+
+  <div class="pagination">
+    <a href="learning.html"><</a>
+    <a href="learning.html">1</a>
+    <a href="page2.html"  class="active">2</a>
+    <a href="page3.html">3</a>
+    <a href="page4.html">4</a>
+    <a href="page5.html">5</a>
+    <a href="page3.html">> </a>
+  </div>
+
+    <div class="dropdown">
+      <button>Food</button>
+      <div class="content">
+        <a href="">Amala and Ewedu</a>
+        <a href="">Pounded Yam and Egusi</a>
+        <a href="">Fufu and Efo</a>
+        <a href="">Semo and Egusi</a>
+      </div>
+    </div>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam neque reprehenderit nostrum omnis laudantium, inventore natus quis illum facilis laborum libero veritatis vel eius debitis adipisci eos repudiandae molestias esse!</p>
+
+
+  <ul>
+    <li>This is 1</li>
+    <li>This is 2</li>
+    <li>This is 3</li>
+    <li>This is 4</li>
+    <li>This is 5</li>
+    <li>This is 6</li>
+    <li>This is 7</li>
+    <li>This is 8</li>
+    <li>This is 9</li>
+    
+  </ul>
+
+
+</body>
+</html>

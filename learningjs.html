@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JS</title>
+
+    <style>
+        .cart {
+            background-color: rgb(230, 184, 3);
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .cart:hover {
+            opacity: 0.7;
+        }
+        .cart:active {
+            background-color: rgb(255, 204, 0);
+        }
+    </style>
+</head>
+<body>
+    <button onclick="
+        console.log(`Cart Quantity: ${cartQuantity}`)
+        " class="cart">Show Quantity</button>
+
+    <button onclick="
+        // cartQuantity = cartQuantity + 1;
+        // cartQuantity += 1;
+         cartQuantity ++
+        console.log(`Cart Quantity: ${cartQuantity}`)
+        " class="cart">add to cart</button>
+
+    <button onclick="
+        // cartQuantity = cartQuantity + 2
+        cartQuantity += 2
+        console.log(`Cart Quantity: ${cartQuantity}`)
+        " class="cart">+2</button>
+
+    <button onclick="
+        // cartQuantity = cartQuantity + 3
+        cartQuantity += 3;
+        console.log(`Cart Quantity ${cartQuantity}`)
+        " class="cart">+3</button>
+
+        <button onclick="
+        cartQuantity = 0;
+        console.log(`Cart was reset`)
+        console.log(`Cart Quantity ${cartQuantity}`)
+        " class="cart">Reset</button>
+
+        <button onclick="
+            cartQuantity = cartQuantity -2;
+            console.log(`Cart Quantity ${cartQuantity}`)
+            " class="cart">-2</button>
+
+        <button onclick="
+            cartQuantity -= 3;
+            console.log(`Cart Quantity ${cartQuantity}`)
+            " class="cart">-3</button>
+
+        <button onclick="
+        cartQuantity = cartQuantity *2;
+        console.log(`Cart Quantity ${cartQuantity}`)
+        " class="cart">*2</button>
+
+        <button onclick="
+        cartQuantity /= 3;
+        console.log(`Cart Quantity ${cartQuantity}`)
+        " class="cart">/3</button>    
+
+    <script>
+        let cartQuantity = 0
+
+        // let variable1 = 3;
+        // console.log(variable1);
+
+        // let calculation = 2;
+        // console.log(calculation + 2);
+
+        // let message = 'Mar Vel Page'
+        // console.log(message);
+
+        // variable2 = 2;
+        // console.log(variable2);
+
+        // variable2 = variable2 + 3;
+        // console.log(variable2);
+
+        // const variable4 = 5;
+        // var variable3 = 6;
+        // console.log(typeof variable4);
+        // console.log(typeof variable3);
+
+        // alert('Welcome to Mar Vel Page')
+
+        const hour = 8; 
+
+        if (hour >= 6 && hour < 12) {
+            console.log('Good Morning')
+        }else if (hour >= 13 && hour < 17) {
+            console.log('Good afternoon')
+        }else {
+            console.log('Good Night')
+        };
+
+        const time = 22; 
+        const name = 'Mark';
+
+        if (hour >= 6 && hour < 12) {
+            console.log(`Good Morning ${name}!`);
+        }else if (hour >= 13 && hour < 17) {
+            console.log(`Good afternoon ${name}`);
+        }else {
+            console.log(`Good Night ${name}`);
+        }
+    </script>
+
+</body>
+</html>

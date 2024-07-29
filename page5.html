@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 5</title>
+  <style>
+    .runaway-text {
+      font-family: arial;
+      font-size: 50px;
+      text-shadow: 4px 5px 5px rgb(25, 6, 237), -4px -5px 5px rgb(255, 217, 0);
+    }
+    .pagination {
+      text-align: center;
+    }
+    .pagination a{
+      color: black;
+      text-decoration: none; 
+      padding: 8px 15px;
+      display: inline-block;
+    }
+    .pagination a.active{
+      background-color: hsl(120, 100%, 70%);
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .pagination a:hover:not(active){
+      background-color: hsl(120, 2%, 66%);
+      border-radius: 5px;
+    }
+    h1::first-letter {
+      font-size: 2em;
+      font-style: italic;
+    }
+    p::first-line {
+      background-color: yellow;
+    }
+    p::selection {
+      color: aqua;
+      background-color: blueviolet;
+    }
+    #fruit li::before{
+      content: "✔";
+    }
+    #apple::after {
+      content: "🍎🍏"
+    }
+    #orange::after {
+      content: "🍊"
+    }
+    #banana::after {
+      content: "🍌"
+    }
+    #fruit li::marker {
+      content: "✔";
+      color: aqua;
+      font-size: 23px;
+    } 
+  </style>
+</head>
+<body>
+  <h1>Page 5</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet facere molestiae itaque nulla, dolorem nemo perferendis quasi voluptatem nisi iusto accusantium odio commodi minus inventore esse et modi sunt quisquam.</p>
+  <div class="pagination">
+    <a href="page4.html"><</a>
+    <a href="learning.html">1</a>
+    <a href="page2.html">2</a>
+    <a href="page3.html">3</a>
+    <a href="page4.html">4</a>
+    <a href="page5.html"  class="active">5</a>
+    <a href="learning.html">> </a>
+  </div>
+
+  <h1>Welcome</h1> 
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti omnis architecto recusandae consectetur sit tenetur aliquid vero modi aspernatur, at temporibus quod culpa provident placeat eius alias natus, eaque obcaecati!</p>
+
+      <ul id="fruit">
+        <li id="apple">apple</li>
+        <li id="orange">orange</li>
+        <li id="banana">banana</li>
+      </ul>
+
+</body>
+</html>
