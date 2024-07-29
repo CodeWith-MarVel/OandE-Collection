@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlaceOrder</title>
+</head>
+<body>
+
+  <section>
+    <h1>Your Order</h1>
+
+    <form action="" method="get" id="order-form">
+      <div>
+
+          <div>
+              <label for="order-name"></label>Name<input type="text" name="order-name" id="order-name" placeholder="Your full name" autofocus>
+          </div> 
+          <div>
+              <label for="order-email"></label>E-mail address<input type="text" name="order-email" id="order-email" disabled value="markjohson@outlook.com">
+          </div> 
+        </div>
+
+      <div>
+          <label for="order-address-1">Address</label>
+          <input type="order-address-1" id="order-address-1">
+          <input type="order-address-2" id="order-address-2">
+      </div>
+
+      <div>
+          <div>
+
+              <div>
+                  <label for="order-city">City</label><input type="text" name="order-city" id="order-city">
+              </div>
+
+              <div>
+                  <label for="order-state">State</label>
+                  <select name="order-state" id="order-state">
+                      <option value="Alabama">Alabama</option>
+                      <option value="Arizona">Arizona</option>
+                      <option value="Alaska">Alaska</option>
+                      <option value="Arkansas"> Arkansas</option>
+                      <option value="Manchester">Manchester</option>
+                  </select>
+              </div>
+
+                <div>
+                  <label for="order-zip">ZIP</label><input type="text" name="order-zip" ZIP="order-zip">
+                </div>
+          </div>
+      </div>
+      
+      <div>
+            <label for="order-color-sample"></label>
+
+            <label for="sample-white">
+              <input type="checkbox" name="sample-white" id="sample-white" value="white" disabled>White
+            </label>
+
+            <label for="sample-magenta">
+              <input type="checkbox" name="sample-magenta" id="sample-magenta" value="magenta">Magneta
+            </label>
+
+            <label for="sample-coral">
+              <input type="checkbox" name="sample-coral" id="sample-coral" value="coral">Coral
+            </label>
+            
+            <label for="sample-burgundy">
+              <input type="checkbox" name="sample-burgundy" id="sample-burgundy" value="burgundy">Burgundy
+            </label>
+
+            <label for="sample-charcoal">
+              <input type="checkbox" name="sample-charcoal" id="sample-charcoal" value="charcoal">Charcoal
+            </label>
+      </div>
+
+      <div>
+          <label>How large is your team</label>
+
+          <label for="team-small">
+            <input type="radio" name="team-size" id="team-small" value="1-5">1-5 people
+          </label>
+
+          <label for="team-medium">
+            <input type="radio" name="team-size" id="team-medium" value="6-10" checked>6-10 people
+          </label>
+
+          <label for="team-small">
+            <input type="radio" name="team-size" id="team-small" value="10+">10+ people
+          </label>
+      </div>
+
+      <div>
+            <label for="order-comment">Comments</label>
+            <textarea name="order-comment" id="order-comment" cols="50" rows="10"></textarea>
+          </div>
+
+          <div>
+            <label for="offer-sign-up">
+                <input type="checkbox" name="offer-sign-up">Sign up fo special offers
+            </label>
+
+            <input type="submit" value="Place Order">
+          </div>  
+      </div>
+    </form>
+      <!-- to be able to class the button -->
+    <button form="order-form">PlaceOrder</button>
+    
+
+  </section>
+  
+</body>
+</html>
