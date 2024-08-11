@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School-Tool</title>
+    <link rel="stylesheet" href="school-tool.css">
+</head>
+<body>
+    <header>
+        
+        <section>
+            <a href="index.html"><img src="pics-room/O&E Collection.jpg" alt="oelogo"></a>
+        </section>
+
+        <section id="section2">
+
+            <div class="text-order"><span class="nav-line1">Return</span> <span class="nav-line2">& Orders</span></div>
+            <a class="cart-link header-link" href="shopping.html"> 
+                <img class="cart-image" src="pics-room/cart-icon.png">
+                <div class="js-cart-quantity" data-testid="js-cart-quantity">3</div>
+                <div class="cart-text">Cart</div>
+            </a>
+        </section>
+
+        <section class="middle-section">
+            <form action="/search-results-page" method="GET"></form>
+            <input class="search-bar" type="text" name="query" placeholder="Search OandE">
+            <button class="js-search-button search-button" data-testid="search-button" type="submit"><img class="search-icon" src="pics-room/search-icon.png"></button>
+            </form>
+        </section>
+
+    </header>
+
+
+
+    <main>
+
+        <article style="overflow: scroll;
+            scrollbar-width: none;
+            padding: 5px;">
+    
+            <p class="above-text">Save on school essential<br><Span class="mini-text">Shop all kinds of School here</Span></p>
+
+            <sectoin style="
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 5px;
+                row-gap: 5px;
+                "> 
+                <div style="background-color: rgb(240, 240, 240); height: 350px; width:  200px">
+                        <img class="images-spaces" src="pics-room/schooltools2.jpg">
+                        <p class="below-text">Drawing kits</p>
+                        <p class="number-text"><sup class="align-up">€</sup>19<sup class="align-up">83</sup></p>
+                    <label>
+                       <form><button onclick="
+                            cartQuantity = cartQuantity + 1;
+                            console.log(`Cart quantity: ${cartQuantity}
+                            `)
+                            "class="cart-button">Add to cart</button>
+                        </form>
+                    </label>
+                </div>
+
+                    
+                <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px">
+                    <img class="images-spaces" src="pics-room/schooltools3.jpg">
+                        <p class="below-text">Crayon </p>
+                        <p class="number-text"><sup class="align-up">€</sup>15<sup class="align-up">99</sup></p>
+                    <label>
+                        <form><button onclick="
+                            cartQuantity = cartQuantity + 1;
+                            console.log(`Cart quantity: ${cartQuantity}
+                            `)
+                            "class="cart-button">Add to cart</button>
+                        </form>
+                    </label>
+                </div>
+
+
+                <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px">
+                    <img class="images-spaces" src="pics-room/schooltools4.jpg">
+                        <p class="below-text">Colored pencil</p>
+                        <p class="number-text"><sup class="align-up">€</sup>34<sup class="align-up">46</sup></p>
+                    <label>
+                        <form><button  onclick="
+                            cartQuantity = cartQuantity + 1;
+                            console.log(`Cart quantity: ${cartQuantity}
+                            `)
+                            "class="cart-button">Add to cart</button>
+                        </form>
+                    </label>
+                </div>
+            </sectoin>
+        </article>
+
+        <article style="overflow: scroll;
+            scrollbar-width: none;
+            padding: 5px;">
+        
+            <section style="
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 5px;
+                row-gap: 5px;
+                "> 
+
+                <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px">
+                    <img class="images-spaces" src="pics-room/schooltools5.jpg">
+                        <p class="below-text">Full Kits</p>
+                        <p class="number-text"><sup class="align-up">€</sup>30<sup class="align-up">87</sup></p>
+                    <label>
+                            <form><button   onclick="
+                                cartQuantity = cartQuantity + 1;
+                                console.log(`Cart quantity: ${cartQuantity}
+                                `)
+                                "class="cart-button">Add to cart</button>
+                            </form>
+                    </label>
+                </div>
+
+                <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px"> 
+                    <img class="images-spaces" src="pics-room/schooltools4.jpg">
+                            <p class="below-text">Glowing Covershoe 1</p>
+                            <p class="number-text"><sup class="align-up">€</sup>27<sup class="align-up">83</sup></p>
+                    <label>
+                        <form><button onclick="
+                            cartQuantity = cartQuantity + 1;
+                            console.log(`Cart quantity: ${cartQuantity}
+                            `)" class="cart-button">Add to cart</button>
+                        </form>
+                    </label>
+                </div>
+
+                    <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px">
+                        <img class="images-spaces" src="pics-room/schooltools6.jpg">
+                            <p class="below-text">Bright Star</p>
+                            <p class="number-text"><sup class="align-up">€</sup>44<sup class="align-up">524</sup></p>
+                        <label>
+                            <form><button onclick="
+                                cartQuantity = cartQuantity + 2;
+                                console.log(`Cart quantity: ${cartQuantity}
+                                `)" class="cart-button" class="cart-button">Add to cart</button>
+                            </form>
+                        </label>
+                    </div>
+            </section>
+        </article>
+
+        <!-- <article style="overflow: scroll;
+            scrollbar-width: none;
+            padding: 5px;">
+
+            <section style="
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 5px;
+                row-gap: 5px;
+                "> 
+                    <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px">
+                        <img class="images-spaces" src="watchs/leatherwatch3.jpg">
+                            <p class="below-text">Boot Up</p>
+                            <p class="number-text"><sup class="align-up">€</sup>39<sup class="align-up">20</sup></p>
+                        <label>
+                            <form><button   onclick="
+                                cartQuantity = cartQuantity + 1;
+                                console.log(`Cart quantity: ${cartQuantity}
+                                `)" class="cart-button">Add to cart</button>
+                            </form>
+                        </label>
+                    </div>
+
+                    <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px">
+                        <img class="images-spaces" src="watchs/metalwatch6.jpg">
+                            <p class="below-text">Fashion Women HandBag</p>
+                            <p class="number-text"><sup class="align-up">€</sup>26<sup class="align-up">18</sup></p>
+                        <label>
+                            <form><button   onclick="
+                                cartQuantity = cartQuantity + 1;
+                                console.log(`Cart quantity: ${cartQuantity}
+                                `)" class="cart-button">Add to cart</button>
+                            </form>
+                        </label>
+                    </div>
+
+                    <div style="background-color: rgb(240, 240, 240); height: 350px; width: 200px">
+                        <img class="images-spaces" src="watchs/metalwatch1.jpg">
+                            <p class="below-text">Bluey glorious Bag</p>
+                            <p class="number-text"><sup class="align-up">€</sup>41<sup class="align-up">20</sup></p>
+                        <label>
+                            <form><button  onclick="
+                                cartQuantity = cartQuantity + 1;
+                                console.log(`Cart quantity: ${cartQuantity}
+                                `)" class="cart-button">Add to cart</button>
+                            </form>
+                        </label>
+                    </div>
+            </section>    
+        </article> -->
+
+    </main>
+</body>
+</html>
